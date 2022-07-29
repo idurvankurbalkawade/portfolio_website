@@ -1,0 +1,16 @@
+.button-row{
+    display: table-cell;
+    width: 600px;
+}
+
+.button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+.active-link{
+    font-weight: bold;
+}
+
+.navbar-brand{
+    color: white;
+}

@@ -1,0 +1,25 @@
+.footer{
+    padding: 20px;
+    margin: 0;
+    position: fixed;
+    height: 85px;
+    width: 100%;
+    bottom: 0;
+    font-size: small;
+}
+
+h5{
+    font-size: medium;
+    color: aliceblue;
+}
+
+a{
+    font-size: 25px;
+    padding: 0px 3px;
+    color: cadetblue;
+    /* align-items: center; */
+}
+
+i{
+    padding: 0px 5px;
+}
