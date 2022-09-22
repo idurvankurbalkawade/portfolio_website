@@ -1,4 +1,4 @@
-.footer{
+/* .footer{
     padding: 20px;
     margin: 0;
     position: fixed;
@@ -10,16 +10,26 @@
 
 h5{
     font-size: medium;
-    color: aliceblue;
+    color: black;
 }
 
 a{
     font-size: 25px;
     padding: 0px 3px;
     color: cadetblue;
-    /* align-items: center; */
 }
 
 i{
     padding: 0px 5px;
-}
+} */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(221, 148, 13);
+    color: rgb(9, 2, 24);
+    text-align: center;
+    margin: 0px;
+    }

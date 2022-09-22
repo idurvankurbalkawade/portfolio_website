@@ -1,0 +1,31 @@
+.text-center{
+    margin-top: 20px;
+}
+
+h3
+{
+    font-size: 20px;
+    text-justify: auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+mat-card{
+    width: 40%;
+    margin-left: 105px;
+    margin-bottom: 15px;
+    background-color: black;
+}
+
+
+.animate{
+    animation: normal 5s 1;
+}

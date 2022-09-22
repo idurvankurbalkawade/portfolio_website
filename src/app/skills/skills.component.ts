@@ -12,4 +12,5 @@ export class SkillsComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  //color="#00FF00";
 }
