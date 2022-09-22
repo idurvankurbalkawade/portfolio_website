@@ -1,5 +1,10 @@
 .text-center{
-    margin-top: 20px;
+    margin-top: 30px;
+    /* animation: animate 3s ease; */
+}
+
+.animate{
+    animation: animate 5s ease;
 }
 
 h3
@@ -20,12 +25,20 @@ h1{
 
 mat-card{
     width: 40%;
-    margin-left: 105px;
+    margin-left: 100px;
     margin-bottom: 15px;
     background-color: black;
 }
 
 
-.animate{
-    animation: normal 5s 1;
+
+
+@keyframes animate {
+    0%{
+        transform: translateY(250px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
 }

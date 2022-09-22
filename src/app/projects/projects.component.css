@@ -1,6 +1,7 @@
+/* margin: top right bottom left */
 .example-card{
-    margin-top: 30px;
     background-color: cadetblue;
+    margin: 30px 60px 40px 60px;
 }
 
 mat-card-title{
@@ -8,7 +9,25 @@ mat-card-title{
     /* color: white; */
 }
 
+/* p{
+    text-align: justify;
+} */
+
 mat-card-content{
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.project{
+    animation: animate 3s ease;
+}
+
+@keyframes animate {
+    0%{
+        transform: translateY(250px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
 }
